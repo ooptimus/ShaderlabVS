@@ -152,6 +152,12 @@
 %}
 
 {%
+	%$ Name = {UnityObjectToClipPos } $%
+	%$ Synopsis = {} $%
+	%$ Description = {replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'.} $%
+%}
+
+{%
 	%$ Name = {UNITY_COMPILER_CG} $%
 	%$ Synopsis = {} $%
 	%$ Description = {determine which underlying shader compiler is used; use in case of subtle syntax differences force you to write different shader code.} $%

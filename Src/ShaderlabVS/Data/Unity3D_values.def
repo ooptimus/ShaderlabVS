@@ -96,6 +96,12 @@
 %}
 
 {%
+	%$ Name = {unity_WorldToObject} $%
+	%$ Type = {float4x4} $%
+	%$ Value = {Inverse of current world matrix.} $%
+%}
+
+{%
 	%$ Name = {_WorldSpaceCameraPos} $%
 	%$ Type = {float3} $%
 	%$ Value = {World space position of the camera.} $%
